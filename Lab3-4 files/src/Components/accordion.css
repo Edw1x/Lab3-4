@@ -1,0 +1,29 @@
+.accordionLink {
+    color:white;
+    text-decoration: none;
+  }
+  
+  .accordionLink:hover{
+    color:burlywood;
+    text-decoration: none;
+  }
+  
+  .accordion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .bg-red {
+    background: #461221;
+    color: #333;
+    text-align: left;
+  }
+
+  .white-text {
+    margin: 0 auto;
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+  }

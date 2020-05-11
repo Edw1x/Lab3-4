@@ -1,0 +1,112 @@
+.white {
+    color: white;
+    background-color: #1e1b26;
+  }
+  
+  .fir-c {
+    height: 47px;
+    width: 47px;
+    border-radius: 100px;
+    border-color: violet;
+    cursor: pointer;
+  }
+  
+  .fir-m {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contr {
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .mgtop {
+      margin-top: 40px;
+      box-shadow: 5px 5px 5px 5px black;
+  }
+
+  a .whiteIcon {
+    color: white;
+    margin: 10px;
+  }
+  
+  a:hover .whiteIcon {
+    color: green;
+  }
+  
+  .iconsContainer {
+    display: flex;
+    position: relative;
+    left: 70%;
+  }
+  
+  .collapseMg {
+    margin-top: 20px;
+  }
+  
+  .btn button {
+      margin-right: 40px;
+  }
+  
+  .headReview h2 {
+    margin-bottom: 50px;
+  }
+  
+  .mainText h3 {
+    margin-bottom: 15px;
+  }
+  
+  .mainText p {
+    margin-bottom: 35px;
+  }
+  
+  .showMore {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .showMore a:hover {
+    color: #c42034;
+  }
+  
+  /*BADGES*/
+  .badge {
+    margin-right: 15px;
+    height: 20px;
+    text-align: center;
+  }
+  
+  /*Rating*/
+  
+  .rating label {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .rating label:after {
+    content: "\2605";
+    font-size: 42px;
+    color: #cccccc;
+    line-height: 1;
+  }
+  .rating input {
+    display: none;
+  }
+  .rating input:checked ~ label:after,
+  .rating:not(:checked) > label:hover:after,
+  .rating:not(:checked) > label:hover ~ label:after {
+    color: #c42034;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .iconsContainer {
+      position: relative;
+      left: 0%;
+    }
+  }
+  

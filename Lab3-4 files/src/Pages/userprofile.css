@@ -1,0 +1,135 @@
+.cnt {
+    max-width: 1250px;
+    margin: 30px auto 30px;
+    padding: 0 !important;
+    width: 90%;
+    background-color: #1e1b26;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+  }
+  .Tabs{
+    background-color:#461221;
+    color: #461221;
+    width: 100%;
+  }
+  
+  
+  .fileInput{
+    background-color: #1e1b26;
+    color: #c42034;
+    border: 2px solid #c42034;
+    margin-top: 1em;
+    width: 250px;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  .report button {
+    background-color: #1e1b26;
+    color: #c42034;
+    border: 2px solid #c42034;
+    margin-top: 1em;
+    width: 100px;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    position: relative;
+  }
+  
+  header {
+    background-image: linear-gradient(
+      rgba(30, 27, 38, 0.95),
+        rgba(90, 18, 25, 0.95)
+      ),
+      url(https://images.pexels.com/photos/3530102/pexels-photo-3530102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+
+  header i {
+    position: relative;
+    cursor: pointer;
+    right: -96%;
+    top: 25px;
+    font-size: 18px !important;
+    color: #fff;
+  }
+  
+  main {
+        padding: 20px 20px 0px 20px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin-top: -120px;
+    border-radius: 100px;
+    border: 4px solid #fff;
+  }
+  
+  .name {
+    margin-top: 20px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18pt;
+    color: #777;
+  }
+  
+  .info {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: #aaa;
+  }
+  
+  .stats {
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  .number-stat {
+    padding: 0px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #aaa;
+  }
+  
+  .desc-stat {
+    margin-top: -15px;
+    font-size: 10pt;
+    color: #bbb;
+  }
+  
+  .desc {
+    text-align: center;
+    margin-top: 25px;
+    margin: 25px 40px;
+    color: #999;
+    font-size: 11pt;
+    font-family: "Open Sans";
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ededed;
+  }
+  
+  .right {
+    padding: 0 25px 0 25px !important;
+  }

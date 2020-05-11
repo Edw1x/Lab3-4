@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.colorLink {
+  color:white;
+}
+
+.iconRed {
+  color:#461221;
+  width: 40px;
+}
+.moneyColor {
+  color: green;
+  margin-left: 15px;
+}
+.dropdown-menu.show{ 
+  background-color: #15131b; 
+  margin: 10px;
+  width: 175px;
+}
+
+.size{
+  width:60px;
+  height:60px;
+  position: relative;
+  left: -5%;
+}
+
+.fir-circle {
+  height: 47px;
+  width: 47px;
+  border-radius: 100px;
+  border-color: violet;
+  cursor: pointer;
+}
+
+.fir-margin {
+  margin-left: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.navbar-custom {
+  background-color: #15131b;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #c42034;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #c42034;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: red;
+}
+
+.back {
+  background-color: #461221;
+}
+
+.backGrey {
+  background-color: #1e1b26;
+}
+
+.bg-grey {
+  background-color: #1e1b26;
+  text-align: center;
+}
+
+/* card and user hr white */
+hr.white{
+  border: 0.5px solid white;
+}
+
+.red {
+  color: #c42034;
+}
+
+.grey {
+  color: #999;
+  font-weight: 400px;
+}
+
+.grey a {
+  color: #999;
+}
+
+.grey a:hover {
+  color: #c42034;
+}
+
+.logoNameMargin {
+  margin-top: 20px;
+}

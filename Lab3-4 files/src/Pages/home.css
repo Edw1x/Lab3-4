@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/*#1e1b26; #461221; #c42034;*/
+/* CSS Variables */
+:root {
+  --primary-color: #b90415;
+  --primary-color-hover: #d3071b;
+  --secondary-color: #103063;
+  --secondary-color-hover: #000000;
+  --light-color: #f4f4f4;
+}
+
+body {
+  background-color: #461221;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h */
+h1,h2,h3,h4,h5,h6,h1-1 {
+  font-family: "Montserrat", sans-serif;
+  color: #e7e7e7;
+  margin: 0px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h1-1 {
+  font-size: 40px;
+  color: #c42034;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c42034;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 27px;
+  font-weight: 400;
+  color: #c42034;
+  position: relative;
+  top: -2.4rem;
+  left: -0.3rem;
+}
+
+
+/*scrollbar */
+::selection{
+  background: rgb(151, 9, 57);
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#1e1b26; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c42034;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #a31223;
+}
+
+
+/*other css*/
+.cont {
+  position: relative;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.img-center {
+  text-align: center;
+  position: relative;
+  image-resolution: center;
+}
+
+.white-text {
+  margin: 0 auto;
+  font-size: 13px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+
+/* Section */
+.section {
+  padding: 2rem 0;
+}
+
+.section-head {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+section#entertainment {
+  background-color: #461221;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+
+/* Showcase */
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
+    url(https://i.pinimg.com/originals/04/96/36/0496360abc9ba9e1dd7b4dfa50616cd1.gif);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#showcase .container {
+  margin-top: 25vh;
+}
+
+
+/* Margins*/
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+
+/*hero section*/
+.imageOnHeroSize {
+  max-width: 30%;
+  height: auto;
+}
+
+.hero {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  color: #ccc;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Amatic SC", sans-serif;
+  letter-spacing: 5px;
+}
+
+.hero-one {
+  top: 0;
+  position: absolute;
+  width: 60%;
+  background-color: black;
+  height: 50vh;
+  clip-path: polygon(0 0, 60vw 0, 40vw 100vh, 0 100vh);
+  z-index: 1;
+  background-image: linear-gradient(
+      rgba(90, 18, 25, 0.95),
+      rgba(30, 27, 38, 0.95)
+    ),
+    url(https://i.pinimg.com/originals/ef/16/e4/ef16e4e68b0d3cb81e6bb8a8c3258d7e.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  background-color: green;
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(30, 27, 38, 0.95),
+      rgba(90, 18, 25, 0.95)
+    ),
+    url(https://media1.tenor.com/images/707006ffbc0beff7914d85d6906be6d0/tenor.gif?itemid=15616371);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-title {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* custom button */
+.cA button {
+  background-color: #1e1b26;
+  color: #c42034;
+  border: 2px solid #c42034;
+  margin-top: 1em;
+  width: 250px;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: 400px;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+/* GRID  */
+.mr-grid {
+  width: 100%;
+  *zoom: 1;
+}
+
+.mr-grid:before,
+.mr-grid:after {
+  content: "";
+  display: table;
+}
+
+.mr-grid:after {
+  clear: both;
+}
+
+
+/* colums */
+.col1,.col2
+ {
+  margin: 0% 0.5% 0.5% 0.5%;
+  padding: 1%;
+  float: left;
+  display: block;
+}
+
+.col1 {
+  width: 98%;
+  font-weight: 400;
+}
+
+.col2 {
+  width: 47%;
+  font-weight: 400;
+}
+
+
+/* label and input*/
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #c42034;
+  font-weight: 400px;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #c42034;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: 400px;
+  color: #1e1b26;
+}
+
+input.error {
+  border: 1px solid #c42034;
+}
+
+#corona {
+  width: 100%;
+}
+
+.projectName {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.titleUnderName {
+font-size: 2rem;
+}
+
+@media screen and (max-width: 409px) {
+  .projectName {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .titleUnderName {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-two li{
+    font-size: 0.9em;
+    width: 50%;
+    margin-left: 10em;
+  }
+  .hero-one li{
+    font-size: 0.9em;
+    width: 50%;
+    margin-left: 5em;
+  }
+
+  .imageOnHeroSize{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1,h2{
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .hero-two li{
+    font-size: 0.9em;
+    width: 50%;
+    margin-left: 5em;
+  }
+  .hero-one li{
+    font-size: 0.9em;
+    width: 50%;
+    margin-left: 5em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-two h1-1 {
+    margin-left: 1.1em;
+  }
+  .hero-two li{
+    font-size: 0.9em;
+    width: 50%;
+    margin-left: 5em;
+  }
+  .hero-one li{
+    font-size: 0.9em;
+    width: 50%;
+    margin-left: 5em;
+  }
+}

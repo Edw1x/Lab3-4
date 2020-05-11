@@ -1,0 +1,62 @@
+.list-group-item {
+  background-color: #1e1b26;
+  border: 1px solid #343a40;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.productNameOfOrder {
+  font-size: 20px;
+  color: #df1321;
+}
+
+.moneySize {
+    font-size: 30px;
+    color:rgb(0, 100, 0);
+    text-shadow: 1px 1px 4px black;
+}
+
+.orderStatus {
+    margin-left: 5%;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.orderStatusNotDone {
+  margin-left: 5%;
+  background-color: #ce0101;
+  color:black;
+  border-radius: 10px;
+  color: gray;
+  box-shadow: 0px 0px 1px 1px black;
+}
+
+
+.button-order-margin {
+    margin: 10px;
+    margin-left:10%;
+}
+
+.flex {
+  float: left;
+}
+
+.clientOrderContainer {
+  max-width: 900px;
+  margin: 30px auto 30px;
+  padding: 0 !important;
+  width: 90%;
+  background-color: #1e1b26;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+}
+
+
+
+@media screen and (max-width: 980px)and (min-width: 760px) {
+  .clientOrderContainer  {
+    width: 100%;
+  }
+  .flex {
+    float: right;
+  }
+}
